@@ -1,0 +1,81 @@
+/* GENERAL */
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    scroll-behaviour: smooth;
+}
+
+body {
+    font-family: 'Open Sans' , sans-serif;
+    width:100vw;
+    height:100vh;
+}
+
+/* HEADER */
+
+body > header {
+    background-color:#D52A54;
+    position:fixed;
+    height:8vh;
+    width:100Vw;
+    margin:0;
+}
+
+body > header > nav {
+    margin-left:15vw;
+    margin-top:2vh;
+}
+
+body > header > nav > ul > li  {
+    display:inline-block;
+}
+
+nav > ul > li > a {
+    text-decoration:none;
+    color:white;
+    margin-right:10vw;
+}
+
+/* MAIN */
+
+main {
+    width:99vw;
+}
+
+/* SECTION TITLE */
+
+#title {
+    background-image: url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/teacher.jpeg);
+    background-size:cover;
+    height:100vh;
+}
+
+#title > h1 {
+    font-size:4em;
+    color:white;
+    position:relative;
+    top: 40vh;
+    left:10vw;
+}
+
+#title > h2 {
+    font-size:2.5em;
+    color:white;
+    position:relative;
+    left:10vw;
+    top: 43vh;
+}
+
+span {
+    color:#D52A54;
+}
+
+/* SECTION ABOUT */
+
+#about > h2 {
+    text-align:center;
+    font-size:2.5em;
+}
