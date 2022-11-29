@@ -12,7 +12,14 @@ body {
     font-family: 'Open Sans' , sans-serif;
     width:100vw;
     height:100vh;
+    overflow-x:hidden;
 }
+
+h2:not(:first-of-type), h3, h4 {
+    font-family: 'Bitter', serif;
+}
+
+
 
 /* HEADER */
 
@@ -22,6 +29,7 @@ body > header {
     height:8vh;
     width:100Vw;
     margin:0;
+    z-index:1000;
 }
 
 body > header > nav {
@@ -42,7 +50,7 @@ nav > ul > li > a {
 /* MAIN */
 
 main {
-    width:99vw;
+    width:100vw;
 }
 
 /* SECTION TITLE */
@@ -75,7 +83,163 @@ span {
 
 /* SECTION ABOUT */
 
+#about {
+    display:block;
+    height:100vh;
+}
+
 #about > h2 {
     text-align:center;
     font-size:2.5em;
+    text-transform:uppercase;
+    margin-top:8vh;
+}
+
+#about p {
+    width:35vw;
+    height:25vh;
+}
+
+#about p:first-of-type {
+    position: absolute;
+    top: 133vh;
+    left: 15vw;
+}
+
+#about p:nth-of-type(2) {
+    position:absolute;
+    left:15vw;
+    top:160vh;
+}
+
+
+#about p:nth-of-type(3) {
+    position:absolute;
+    top:133vh;
+    left:55vw;
+}
+
+#about p:last-of-type {
+    position:absolute;
+    left:55vw;
+    top:160vh;
+}
+
+/* SECTION COURS */
+
+#cours {
+    background-color:#0B6CCD;
+    height:100vh;
+}
+
+#cours > h2 {
+    color:white;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:2.5em;
+    padding:6vh 0;
+}
+
+#cours article {
+    background-color: white;
+    width: 22vw;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #18191B;
+    position: absolute;
+    top: 230vh;
+}
+
+#cours article > header {
+    text-align:center;
+    text-transform:uppercase;
+    width:100%;
+    padding:4vh 0;
+    color:white;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+
+#cours article > header > h3 {
+    display:block;
+    font-size:1.1em;
+    font-weight:bold;
+}
+
+#cours article p {
+    padding:1em
+}
+
+/* FIRST ARTICLE #COURS */
+#cours article:first-of-type {
+    left:9vw;
+}
+
+#cours article:first-of-type header {
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/code.jpeg);
+}
+
+
+/* SECOND ARTICLE #COURS */
+
+#cours article:nth-of-type(2) {
+    left:39vw;
+}
+
+#cours article:nth-of-type(2) header {
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/design.jpeg);
+}
+
+/* THIRD ARTICLE #COURS */
+
+#cours article:last-of-type {
+    left:69vw;
+}
+
+#cours article:last-of-type header {
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/management.jpeg);
+}
+
+
+/* SECTION AGENDA */
+
+#agenda {
+    height:100vh;
+}
+
+#agenda > h2 {
+    text-align:center;
+    text-transform:uppercase;
+    font-size:2.5em;
+    padding:6vh 0;
+}
+
+#agenda article {
+    background-color: white;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 30%);
+    position: absolute;
+    top: 330vh;
+    border: 1px solid #1e5d62;
+}
+
+#agenda article > header {
+    width: 100%;
+    height: 15vh;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    background-image: url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#agenda article > header > h3 {
+    position: absolute;
+    top: 12vh;
+    width: 100%;
 }
