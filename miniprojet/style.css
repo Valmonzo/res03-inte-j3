@@ -216,30 +216,155 @@ span {
 
 #agenda article {
     background-color: white;
-    width: 20vw;
-    height: 40vh;
+    width: 20%;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgb(0 0 0 / 30%);
-    position: absolute;
-    top: 330vh;
     border: 1px solid #1e5d62;
+    display:inline-block;
+    text-align:center;
 }
 
 #agenda article > header {
-    width: 100%;
     height: 15vh;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     text-align: center;
     font-family: 'Bitter', serif;
     text-transform: uppercase;
-    background-image: url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image:url(https://res03.sites.3wa.io/assets/files/inte/j3/mini-projet/assets/img/agenda.png);
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 #agenda article > header > h3 {
-    position: absolute;
-    top: 12vh;
-    width: 100%;
+    padding-top: 15vh;
+}
+
+#agenda article > section {
+    padding:6vh 0;
+}
+
+#agenda article > section h4 {
+    font-weight: 300;
+    color: #1e5d62;
+    margin-bottom: 4vh;
+    padding:0 2vw 0 2vw;
+}
+
+
+/* FIRST ARTICLE #AGENDA */
+
+
+#agenda > article:first-of-type {
+    margin:0 1vw 0 6vw;
+}
+
+/* SECOND ARTICLE #AGENDA */
+
+#agenda > article:nth-of-type(2) {
+    margin:0 1vw 0 1vw;
+}
+
+/*THIRD ARTICLE #AGENDA */
+
+#agenda > article:nth-of-type(3) {
+    margin:0 1vw 0 1vw;
+}
+
+/* LAST ARTICLE #AGENDA */
+
+#agenda > article:last-of-type {
+    margin:0 6vw 0 1vw;
+}
+
+
+/* SECTION CONTACT */
+
+#contact {
+    height:100vh;
+    background-color:#326584;
+
+}
+
+#contact h2 {
+    text-align:center;
+    text-transform:uppercase;
+    font-size:2.5em;
+    padding:6vh 0;
+    color:white;
+}
+
+#contact > section {
+    display:inline-block;
+    width:45%;
+    padding-left:4vw;
+
+}
+
+/* SECTION CONTACTER */
+
+#coordonnees {
+    position:relative;
+    top:-15vh;
+}
+
+#coordonnees h3 {
+    padding:1vh 2vw 1vh 2vw;
+    font-size:0.9em;
+    color:white;
+    text-transform:uppercase;
+    font-weight:lighter;
+}
+
+#coordonnees h4 {
+    padding:1vh 2vw 1vh 2vw;
+    font-size 0.8em;
+    color:white;
+    font-weight:bold;
+}
+#contact p {
+    padding: 1vh 2vw 1vh 2vw;
+    font-size:0.8em;
+    color:white;
+}
+
+
+/* SECTION FORM */
+
+#form {
+    border-left: 1px solid white ;
+}
+
+#form h3 {
+    padding:1vh 2vw 1vh 2vw;
+    font-size:0.9em;
+    color:white;
+    text-transform:uppercase;
+    font-weight:lighter;
+}
+
+#form fieldset > * {
+    display:block;
+}
+
+#form fieldset {
+    border-style:none;
+    padding-bottom:1vh;
+}
+
+#form label {
+    color:white;
+    font-size:0.8em;
+    padding-bottom:1vh;
+}
+
+#form input {
+    border-style:none;
+    background-color:white;
+}
+
+#btn {
+    width:10vw;
+    height:4vh;
 }
