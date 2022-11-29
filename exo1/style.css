@@ -1,0 +1,72 @@
+/* ----- GENERAL ----- */
+/*
+
+--blanc: #ffffff;
+--noir: #000000;
+--bleu-clair:#c2cae8;
+--bleu-median:#4455b3
+--bleu-foncé :#0e2872;
+
+*/
+
+
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background-color: #4455b3;
+}
+
+
+/* ----- MAIN ----- */
+
+main {
+    background-color:white;
+    box-shadow: 5px 5px 5px #0e2872;
+    position:absolute;
+    width:35vw;
+    height:50vh;
+    left:32vw;
+    top:25vh;
+    border-radius:7px;
+}
+
+h1 {
+    color:#4455b3;
+    font-size:2em;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* ------- FORM -------- */
+
+fieldset {
+    border-style:none;
+    margin-left:7vw;
+
+}
+
+label {
+    color:black;
+    font-weight:bold;
+    font-size:0.70em;
+}
+
+input {
+    width:70%;
+    background-color:#c2cae8;
+    border-style:none;
+    height:4vh;
+    border-radius:4px;
+}
+
+#btn {
+    background-color:#4455b3;
+    width:40%;
+    height:4vh;
+    color:white;
+    padding-bottom:0.2em;
+    font-weight:bold;
+}
