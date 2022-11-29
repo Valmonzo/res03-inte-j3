@@ -1,0 +1,111 @@
+/*
+
+Couleurs :
+
+blanc : #ffffff;
+noir: #000000;
+bleu clair : #c2cae8;
+bleu median : #4455b3
+bleu foncé : #0e2872;
+
+Polices :
+
+font-family : 'Arial', sans-serif;
+
+*/
+
+
+/* ----- GENERAL ------- */
+
+
+* {
+    font-family: 'Arial', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-color:#4455b3;
+
+}
+
+header {
+    padding:0;
+    margin-bottom:4vh;
+}
+
+h1 {
+    text-align:center;
+    font-size:3.2em;
+    color:white;
+    text-shadow:2px 2px 2px #0e2872;
+}
+
+h2 {
+    color:#c2cae8;
+    font-size:2.8em;
+    text-align:center;
+    text-shadow:2px 2px 2px #0e2872;
+}
+
+
+/* ------ FORM ------ */
+
+section {
+    width:40vw;
+    display:inline-block;
+    margin-right:4vw;
+    margin-left:4vw;
+}
+
+.connexion {
+    position:relative;
+    bottom:30vh;
+}
+
+form {
+    background-color:white;
+    width:35vw;
+    display:inline-block;
+    border-radius:7px;
+    margin-left:2.5vw;
+    box-shadow:4px 4px 4px #0e2872;
+}
+
+fieldset > * {
+    display:block;
+}
+
+
+fieldset {
+    display:block;
+    border-style:none;
+    margin: 3vh 8vw;
+}
+
+form label {
+    font-size:0.8em;
+    font-weight:bold;
+}
+
+form  input {
+    border-style:none;
+    border-radius:4px;
+    background-color:#c2cae8;
+    width:20vw;
+    margin-top:0.5vh;
+    height:4vh;
+}
+
+
+form > input:last-of-type {
+    margin-left:8vw;
+    height:5vh;
+    width:8vw;
+    border-radius:4px;
+    color:white;
+    background-color:#4455b3;
+    border-style:none;
+    font-weight:bold;
+    margin-bottom:4vh;
+}
